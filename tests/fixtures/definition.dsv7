@@ -1,0 +1,24 @@
+FORMAT: Wettkampfdefinitionsliste;7;
+ERZEUGER: Fixture;1.0;dev@example.org;
+VERANSTALTUNG: 1. Synthetisches Sportfest;Musterstadt;25;AUTOMATISCH;
+VERANSTALTUNGSORT: Hallenbad Nord;Badstrasse 1;12345;Musterstadt;GER;;;bad@example.org;
+AUSSCHREIBUNGIMNETZ: https://example.org/ausschreibung;
+VERANSTALTER: SV Musterstadt;
+AUSRICHTER: SV Musterstadt;Muster, Erika;Badstrasse 1;12345;Musterstadt;GER;;;meldung@example.org;
+MELDEADRESSE: Muster, Erika;Badstrasse 1;12345;Musterstadt;GER;;;meldung@example.org;
+MELDESCHLUSS: 01.05.2026;18:00;
+BANKVERBINDUNG: Musterbank;DE00000000000000000000;MUSTDEFF;
+BESONDERES: Keine Nachmeldungen.;
+NACHWEIS: 01.05.2025;01.05.2026;AL;
+ABSCHNITT: 1;16.05.2026;07:30;08:15;08:45;;
+ABSCHNITT: 2;16.05.2026;00:00;00:00;00:30;J; (* Uhrzeiten relativ nach vorherigem Abschnitt *)
+WETTKAMPF: 1;E;1;1;100;S;GL;W;SW;;; (* 100m Schmetterling weiblich *)
+WETTKAMPF: 2;E;1;1;100;S;GL;M;SW;;;
+WETTKAMPF: 3;V;2;1;50;F;GL;X;SW;;;
+WETTKAMPF: 4;F;2;1;50;F;GL;X;SW;3;V;
+WERTUNG: 1;E;1;JG;2010;2012;W;Jahrgang 2010-2012 weiblich;
+WERTUNG: 2;E;1;JG;2010;2012;M;Jahrgang 2010-2012 maennlich;
+PFLICHTZEIT: 1;E;JG;2010;2012;00:01:15,00;W;
+MELDEGELD: Meldegeldpauschale;15,00;;
+MELDEGELD: Einzelmeldegeld;3,50;;
+DATEIENDE
