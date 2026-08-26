@@ -1,0 +1,28 @@
+# --- Python ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+
+# --- Tooling caches -------------------------------------------------------
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# --- Editors / OS ---------------------------------------------------------
+.idea/
+.vscode/
+.DS_Store
+**/*.iml
+
+# --- Local data -----------------------------------------------------------
+# Real DSV files carry personal data (athletes, officials, bank details) and must
+# never be committed. Put throwaway samples here; the test fixtures are synthetic.
+/data/
+*.local.*
+CLAUDE.md

@@ -1,0 +1,30 @@
+# =============================================================================
+# dsv-parser — pre-commit hooks.
+#
+# Auto-format ONLY the staged files BEFORE the commit, so CI never fails on
+# formatting alone. The hooks invoke the repo's OWN toolchain (`uv run ruff`) on
+# exactly the staged paths — no whole-repo sweep. Run `make install` once before
+# committing, which you would need anyway.
+#
+# CI keeps `format-check` + `lint` as the backstop for anyone bypassing the hook.
+# =============================================================================
+minimum_pre_commit_version: "3.2.0"
+default_install_hook_types: [pre-commit]
+
+repos:
+  - repo: local
+    hooks:
+      # Ruff covers import order (the `I` rule, which `ruff format` does NOT
+      # touch) and formatting in one go — matching `make format`.
+      - id: ruff-import-order
+        name: ruff — import order (staged)
+        entry: uv run ruff check --select I --fix --force-exclude
+        language: system
+        types_or: [python, pyi]
+        require_serial: true
+      - id: ruff-format
+        name: ruff — format (staged)
+        entry: uv run ruff format --force-exclude
+        language: system
+        types_or: [python, pyi]
+        require_serial: true

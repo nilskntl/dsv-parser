@@ -1,0 +1,21 @@
+FORMAT: Wettkampfergebnisliste;8;
+ERZEUGER: Fixture;1.0;dev@example.org;
+VERANSTALTUNG: 1. Synthetisches Sportfest;Musterstadt;25;AUTOMATISCH;
+VERANSTALTER: SV Musterstadt;
+AUSRICHTER: SV Musterstadt;Muster, Erika;;;;;;;meldung@example.org;
+ABSCHNITT: 1;16.05.2026;08:45;;
+KAMPFGERICHT: 1;SCH;Schiri, Sabine;SV Musterstadt;
+KAMPFGERICHT: 1;STA;Starter, Stefan;SC Beispiel;
+VEREIN: SV Musterstadt;1234;12;GER;
+VEREIN: SC Beispiel;5678;12;GER;
+WETTKAMPF: 1;E;1;1;100;S;GL;W;SW;;;
+WERTUNG: 1;E;1;JG;2010;2012;W;Jahrgang 2010-2012 weiblich;
+PNERGEBNIS: 1;E;1;1;;Musterfrau, Mia;111111;1;W;2010;16;SV Musterstadt;1234;00:01:12,34;;;GER;;;
+PNZWISCHENZEIT: 1;1;E;50;00:00:34,12;
+PNREAKTION: 1;1;E;+;00:00:00,68;
+PNERGEBNIS: 1;E;1;0;DS;Beispiel, Bea;222222;2;W;2011;15;SC Beispiel;5678;00:00:00,00;Fehlstart;;GER;;;
+STERGEBNIS: 1;E;1;1;;1;901;SV Musterstadt;1234;00:02:10,00;;;;
+STAFFELPERSON: 901;1;E;Musterfrau, Mia;111111;1;W;2010;16;GER;;;
+STZWISCHENZEIT: 901;1;E;1;50;00:00:33,00;
+STABLOESE: 901;1;E;2;-;00:00:00,04;
+DATEIENDE

@@ -1,0 +1,11 @@
+FORMAT: Wettkampfergebnisliste;6;
+ERZEUGER: Fixture;1.0;dev@example.org;
+VERANSTALTUNG: 1. Synthetisches Sportfest;Musterstadt;25;AUTOMATISCH;
+VERANSTALTER: SV Musterstadt;
+ABSCHNITT: 1;16.05.2026;08:45;;
+VEREIN: SV Musterstadt;1234;12;GER;
+WETTKAMPF: 1;E;1;1;100;S;GL;W;SW;;;
+WERTUNG: 1;E;1;JG;2010;2012;W;Jahrgang 2010-2012 weiblich;
+PNERGEBNIS: 1;E;1;1;;Musterfrau, Mia;111111;1;W;2010;16;SV Musterstadt;1234;00:01:12,34;;;
+STAFFELPERSON: 901;1;E;Musterfrau, Mia;111111;1;W;2010;16;
+DATEIENDE

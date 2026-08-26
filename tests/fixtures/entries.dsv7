@@ -1,0 +1,14 @@
+FORMAT: Vereinsmeldeliste;7;
+ERZEUGER: Fixture;1.0;dev@example.org;
+VERANSTALTUNG: 1. Synthetisches Sportfest;Musterstadt;25;AUTOMATISCH;
+ANSPRECHPARTNER: Trainer, Tom;Weg 2;12345;Musterstadt;GER;;;tom@example.org;
+ABSCHNITT: 1;16.05.2026;08:45;;
+VEREIN: SV Musterstadt;1234;12;GER;
+TRAINER: 1;Trainer, Tom;M;
+WETTKAMPF: 1;E;1;1;100;S;GL;W;;;
+PNMELDUNG: Musterfrau, Mia;111111;1;W;2010;16;1;GER;;;
+STARTPN: 1;1;00:01:15,00;
+STMELDUNG: 1;901;JG;2010;2012;Staffel A;
+STARTST: 901;1;00:02:15,00;
+STAFFELPERSON: 901;1;1;1;
+DATEIENDE
