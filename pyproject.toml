@@ -1,6 +1,6 @@
 [project]
 name = "dsv-parser"
-version = "0.0.0"
+version = "1.0.0"
 description = "Standalone parser for DSV swim-meet interchange files (DSV5–DSV8) into a typed data schema — usable as a library, a CLI and a FastAPI service."
 requires-python = ">=3.12"
 license = "MIT"

@@ -37,4 +37,4 @@ __all__ = [
 try:
     __version__ = version("dsv-parser")
 except PackageNotFoundError:  # pragma: no cover - only when running from a bare checkout
-    __version__ = "0.0.0"
+    __version__ = "1.0.0"
